@@ -1,0 +1,96 @@
+/* ===== ESTILOS GERAIS (válidos para todas as resoluções) ===== */
+
+.conteudo .descricao {
+    text-align: justify;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+
+/* ===== TELAS MÉDIAS (tablets e celulares maiores — até 768px) ===== */
+@media (max-width: 768px) {
+
+    /* Efeito visual no fundo do main */
+    main::after {
+        background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0.00) 70%) no-repeat;
+        width: 100vw;
+    }
+
+    /* Ajusta a altura e posicionamento da imagem do personagem */
+    main .personagem .imagem {
+        height: 85%;
+        object-position: center;
+    }
+
+    /* Posicionamento e espaçamento do conteúdo do personagem */
+    .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -110px;
+        max-width: 100vw;
+        padding: 30px;
+    }
+
+    /* Tamanho do nome do personagem */
+    .conteudo .nome-personagem {
+        font-size: 30px;
+    }
+
+        .conteudo .descricao {
+        max-width: 500px;
+        text-align: justify;
+        line-height: 1.6;
+    }
+
+    /* Área dos botões: alinhar e espaçar */
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+    }
+
+    /* Tamanho padrão dos botões */
+    .botoes .botao {
+        width: 70px;
+        height: 70px;
+    }
+
+    .botoes .botao img {
+        max-width: 70px;
+    }
+}
+
+
+/* ===== TELAS PEQUENAS (celulares menores — até 425px) ===== */
+@media (max-width: 425px) {
+
+    /* Imagem se adapta ao tamanho da tela */
+    main .personagem .imagem {
+        height: auto;
+    }
+
+    /* Reposicionamento do conteúdo */
+    .conteudo {
+        top: -20%;
+    }
+
+       .botoes {
+        padding: 20px;
+        top: -10%;
+    }
+
+    .botoes .botao {
+        width: 50px;
+        height: 50px;
+    }
+
+    .botoes .botao img {
+        max-width: 50px;
+    }
+
+    /* Nome do personagem */
+    .conteudo .nome-personagem {
+        font-size: 30px;
+    }
+}

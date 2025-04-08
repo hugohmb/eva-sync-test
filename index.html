@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang=pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Evangelion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    
+</head>
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture> 	
+                <source srcset="./src/imagens/EvangelionHome.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/EvangelionHome-mobile.png" alt="Personagem Cyberstorm" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Neon Genesis Evangelion</h2>
+                <p class="descricao">Em um mundo abalado por um desastre global, uma organização secreta recruta jovens para pilotar gigantes biomecânicos e enfrentar criaturas enigmáticas chamadas Anjos. À medida que a luta avança, cada batalha revela mais do que apenas destruição: expõe dúvidas, medos e os limites do que significa ser humano. Neon Genesis Evangelion é uma experiência intensa, onde ficção científica e emoção caminham lado a lado.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/Evangelion00.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/Evangelion-00-mobile.png" alt="Personagem CodePixie" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Evangelion Unidade 00</h2>
+                <p class="descricao">A primeira unidade funcional criada pela NERV, a Evangelion 00 é um protótipo experimental que marca o início do projeto de combate aos Anjos. Com design minimalista e estrutura simplificada, essa unidade apresenta características únicas em sua operação e sincronização. É pilotada por Rei Ayanami, cuja conexão com a máquina levanta mistérios e simbolismos ao longo da série.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/Evangelion01.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/Evangelion-01-mobile.png" alt="Personagem HexBlade" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Evangelion Unidade 01</h2>
+                <p class="descricao">Considerada a mais icônica entre as Evangelions, a Unidade 01 é um modelo de testes com papel central na trama. Seu visual marcante e comportamento imprevisível a destacam das demais unidades. Pilotada por Shinji Ikari, a Eva-01 desempenha funções decisivas e é cercada por simbolismos profundos que se desdobram ao longo da narrativa.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/Evangelion02.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/Evangelion-02-mobile.png" alt="Personagem NeonPulse" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Evangelion Unidade 02</h2>
+                <p class="descricao">Desenvolvida para operações de combate, a Evangelion 02 é o primeiro modelo de produção em série. De aparência arrojada e desempenho ofensivo, representa a evolução tecnológica do projeto. Pilotada por Asuka Langley Soryu, a Unidade 02 se destaca por seu estilo agressivo e por momentos de grande intensidade em batalha.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/EvangelionNERV.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/EvangelionNERV-mobile.png" alt="Personagem Codebreaker" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">NERV</h2>
+                <p class="descricao">Por trás dos muros de uma Tóquio futurista, a NERV opera nas sombras como a principal linha de defesa da humanidade contra ameaças desconhecidas. Oficialmente ligada às Nações Unidas, sua missão é coordenar o uso das unidades Evangelion no combate aos Anjos — seres colossais cuja origem e propósito permanecem envoltos em mistério.
+
+                Mas a NERV é muito mais do que uma base militar. É um organismo complexo, onde ciência, fé, poder e segredos se entrelaçam. Liderada pelo enigmático Gendo Ikari, a organização carrega intenções que nem sempre são reveladas aos seus próprios membros. Cada decisão tomada dentro de seus corredores ecoa no destino da humanidade.</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao evangelionhome selecionado">
+                <img src="./src/imagens/icone-evangelionHome.png" alt="Ícone Cyberstorm" />
+            </button>
+        </li>
+        <li>
+            <button class="botao evangelion00">
+                <img src="./src/imagens/icone-evangelion00.png" alt="Ícone CodePixie" />
+            </button>
+        </li>
+        <li>
+            <button class="botao evangelio01">
+                <img src="./src/imagens/icone-evangelion01.png" alt="Ícone Hexblade" />
+            </button>
+        </li>
+        <li>
+            <button class="botao evangelion02">
+                <img src="./src/imagens/icone-evangelion02.png" alt="Ícone Neonpulse" />
+            </button>
+        </li>
+        <li>
+            <button class="botao NERV">
+                <img src="./src/imagens/icone-evangelionNERV.png" alt="Ícone Codebreaker" />
+            </button>
+        </li>
+    </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+   
+    <!-- POP-UP -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h1>🔺 Um Anjo se aproxima.</h1>
+            <p>Esteja pronto. As informações que você precisa estão neste site.</p>
+            <button id="startBtn">OK</button>
+        </div>
+    </div>
+
+    <!-- CONTADOR -->
+    <div id="contador" class="contador">01:30</div>
+
+    <!-- ÁUDIO -->
+    <audio id="somAlarme" src="./src/audio/NeonGenesisEvangelionOpening.mp3" preload="auto"></audio>
+    <audio id="musicaPopup2" src="./src/audio/NeonGenesisEvangelionBattle.mp3"></audio>
+
+    <script src="src/js/script.js"></script>
+    
+</body>
+</html>

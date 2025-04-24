@@ -1,4 +1,4 @@
-# EVA Mission Timer ⏱️🚀
+# EVA Mission Timer (My first code)⏱️🚀
 
 An interactive simulation of an EVA (Extra-Vehicular Activity) mission, inspired by the universe of *Neon Genesis Evangelion*.
 
